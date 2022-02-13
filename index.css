@@ -1,7 +1,9 @@
 body {
     background-color:rgb(246, 245, 245);
     font-family: "Helvetica Neue", Helvetica, sans-serif;
-    padding: 50px 300px 0 500px; 
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 5vw;
     
 }
 
@@ -9,7 +11,6 @@ body {
 p, li {
     font-size: 1.1rem;
     line-height: 1.5em;
-    padding: 0 200px 0 0;
 }
 
 li {
