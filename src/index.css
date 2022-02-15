@@ -4,9 +4,7 @@ body {
     max-width: 600px;
     margin: 0 auto; 
     padding: 5vw;
-    
 }
-
 
 p, li {
     font-size: 1.1rem;
@@ -19,4 +17,8 @@ li {
 
 .projectTitle {
     font-weight: bold;
+}
+
+a{
+    text-decoration: none; 
 }
