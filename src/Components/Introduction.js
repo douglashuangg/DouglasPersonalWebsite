@@ -10,7 +10,7 @@ function Introduction() {
       <a href="https://github.com/douglashuangg">Github </a>
       <a href="">Resume</a>
 
-      <p>Hi, I'm Douglas. I am a first year Mechanical Engineering Student at the University of Waterloo interested in Machine Learning and Web Development.</p>
+      <p>Hi, I'm Douglas. I am a first year Mechanical Engineering Student at the University of Waterloo interested in Machine Learning and web development.</p>
         
   </div>
   )
