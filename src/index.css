@@ -27,16 +27,14 @@ h1 {
     font-size: 40px; 
 }
 
-.logo {
+/* .logo {
+    
+    
+  } */
+#douglas {
     height: 150px;
     width: 150px;
-    pointer-events: none;
-    background-image: url('/public/dp.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-#Douglas {
     float: right;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 10px;
     border-radius: 50%;
-}
+} 
