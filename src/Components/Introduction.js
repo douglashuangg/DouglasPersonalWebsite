@@ -3,7 +3,7 @@ import React from 'react';
 function Introduction() {
   return (
     <div className="introduction">
-      <img src={`${process.env.PUBLIC_URL}/images/dp.jpg`} id="douglas" alt="Douglas Huang"/>
+      {/* <img src={`${process.env.PUBLIC_URL}/images/dp.jpg`} id="douglas" alt="Douglas Huang"/> */}
       <h1>Douglas Huang</h1>
  
       <a href="https://www.linkedin.com/in/douglas-huang-b8b521209/">Linkedin </a>

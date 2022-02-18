@@ -5,7 +5,6 @@ function Skills() {
     <>
         <h3>Languages and Frameworks</h3>
         <p>C#, React</p>
-        
     </>
   )
 }
