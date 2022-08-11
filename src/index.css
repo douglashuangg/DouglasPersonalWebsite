@@ -1,9 +1,9 @@
 body {
-    background-color:rgb(246, 245, 245);
+    background-color:#ffffff;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     max-width: 600px;
     margin: 0 auto; 
-    padding: 5vw;
+    padding: 1vw;
 }
 
 p, li {
@@ -25,6 +25,11 @@ a{
 
 h1 {
     font-size: 40px; 
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 /* .logo {
@@ -38,3 +43,18 @@ h1 {
     margin: 0 0 0 10px;
     border-radius: 50%;
 } 
+
+.buttonMain {
+    -webkit-border-radius: 30px;
+    background: #242e3a;
+    color: #FFF;
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.mainHeader {
+    background-image: linear-gradient(90deg, #00b7ff 0%, #732173 60%, #ff00bf 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 790;
+}

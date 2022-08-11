@@ -3,8 +3,8 @@ import React from 'react'
 function Skills() {
   return (
     <>
-        <h3>Languages and Frameworks</h3>
-        <p>C#, React</p>
+        <h2>Languages and Frameworks</h2>
+        <p>JavaScript, Python, C#, ReactJS</p>
     </>
   )
 }
