@@ -9,7 +9,6 @@ function Projects() {
                 <h3 class="projectTitle" style={{padding: "10px 0px"}}>
                   Incoming Software Developer @ Brock Solutions
                 </h3>
-                
                 <h3 class="projectTitle">
                 University of Waterloo, Centre for Extended Learning
                 </h3>
@@ -21,13 +20,16 @@ function Projects() {
         <h2>Projects</h2>
         <ul>
           <h3>
-            FBI (Facts 'Bout Ingredients)
+            FBI (Facts 'Bout Ingredients) | Python/Flask, ReactJS
           </h3>
           <li>
-            Generates facts about ingredients in a nutrition label!
+            A hackathon project that generates facts about ingredients in a nutrition label!
           </li>
+          <h3>
+            Renewable Percentage | Python
+          </h3>
           <li>
-            Built with Python/Flask and ReactJS.
+            A twitter bot that tweets the percentage of energy generated renewably today compared to the same time last year in the USA.
           </li>
         </ul>
 

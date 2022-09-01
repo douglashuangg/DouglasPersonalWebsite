@@ -1,9 +1,15 @@
 body {
-    background-color:#ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+
+.mainBody {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     max-width: 600px;
     margin: 0 auto; 
     padding: 1vw;
+    
 }
 
 p, li {
@@ -12,7 +18,11 @@ p, li {
 }
 
 li {
-    list-style: none; 
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
 }
 
 .projectTitle {
@@ -26,6 +36,8 @@ a{
 h1 {
     font-size: 40px; 
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -45,16 +57,80 @@ h2 {
 } 
 
 .buttonMain {
-    -webkit-border-radius: 30px;
+    -webkit-border-radius: 40px;
     background: #242e3a;
     color: #FFF;
     padding: 20px 20px;
-    margin: 20px;
+    margin: 0 20px 0 0;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 10%;
 }
 
+.icons {
+    cursor: pointer;
+    outline: none;
+    font-size: 3em;
+    color: #080a2df6; 
+    float: right;
+    padding: 30px 10px;
+}
+
+
 .mainHeader {
-    background-image: linear-gradient(90deg, #00b7ff 0%, #732173 60%, #ff00bf 100%);
+    background-image: linear-gradient(90deg, #57cbf8 0%, #732173 60%, #ff00bf 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-weight: 790;
 }
+
+.footer {
+    --footer-background: #000000;
+    --footer-text-color: #ffffff;
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+    min-width: 1024px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 0rem -3rem -5rem -1rem;
+    max-width: 100%;
+
+  }
+
+  .footers {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+ }
+
+ .footerz {
+    background:#080a2df6;
+    color:#dedbdb;
+    height: 8em;
+    display: flex;
+    margin: 4em 0 0 0;
+    padding: 0 5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+ }
+ 
+ body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #00000035;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(255, 255, 255);  /* creates padding around scroll thumb */
+  }
