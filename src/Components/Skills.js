@@ -1,12 +1,13 @@
-import React from 'react'
+import "../App.css";
+import React from "react";
 
 function Skills() {
   return (
-    <>
-        <h2>Languages and Frameworks</h2>
-        <p>JavaScript, Python, C#, ReactJS</p>
-    </>
-  )
+    <div className="projects">
+      <h2 className="title-headers">Languages and Frameworks</h2>
+      <p>JavaScript, Python, C#, ReactJS</p>
+    </div>
+  );
 }
 
-export default Skills
+export default Skills;
