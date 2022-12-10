@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #201b22;
-  color: #e4e2e4;
+  background-color: #211c23;
+  color: #c7c7c7;
 }
 
 .title-headers {
@@ -12,16 +16,26 @@ body {
   margin: 2rem 0;
   padding: 1rem;
   border-style: solid;
+  border-radius: 0.75rem;
+  min-height: 10rem;
 }
 
-.projects {
+/* .projects {
   background-color: #f8f6eb;
   color: black;
   padding: 3rem;
   margin: 1rem;
   border-radius: 0.75rem;
-}
+} */
 
 .link-buttons {
-  color: white;
+  color: #c7c7c7;
+}
+
+.arduino-image {
+  height: 20rem;
+  position: absolute;
+  margin: -35rem -18rem;
+  z-index: -1;
+  pointer-events: none;
 }

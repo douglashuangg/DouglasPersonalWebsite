@@ -21,12 +21,12 @@ function Links() {
         href="https://www.linkedin.com/in/douglas-huang-b8b521209/"
         target="_blank"
         className="icons"
+        style={{ padding: "30px 30px 0 10px" }}
       >
         <div className="link-buttons">
           <FontAwesomeIcon icon={faLinkedin} />{" "}
         </div>
       </a>
-      {/* </div> */}
     </div>
   );
 }

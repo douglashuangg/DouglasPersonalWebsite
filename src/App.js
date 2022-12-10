@@ -16,7 +16,7 @@ function App() {
   });
 
   return (
-    <animated.div style={props} className="App">
+    <div style={props} className="App">
       <Links />
       <div className="mainBody">
         <Introduction />
@@ -24,7 +24,7 @@ function App() {
         <Skills />
       </div>
       <Footer />
-    </animated.div>
+    </div>
   );
 }
 
