@@ -2,7 +2,6 @@
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   width: 60rem;
   margin: 0 auto;
-  padding: 1vw;
 }
 
 p,
@@ -19,10 +18,6 @@ ul {
   padding-left: 0;
 }
 
-.projectTitle {
-  font-weight: bold;
-}
-
 a {
   text-decoration: none;
 }
@@ -30,24 +25,12 @@ a {
 h1 {
   font-size: 40px;
   text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 30px;
-}
-
-/* .logo {
-    
-    
-  } */
-#douglas {
-  height: 150px;
-  width: 150px;
-  float: right;
-  margin: 0 0 0 10px;
-  border-radius: 50%;
 }
 
 .buttonMain {
@@ -82,36 +65,10 @@ h2 {
   font-weight: 790;
 }
 
-/* .footer {
-  --footer-background: #000000;
-  --footer-text-color: #ffffff;
-  background: var(--footer-background);
-  color: var(--footer-text-color);
-  min-width: 1024px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-  margin: 0rem -3rem -5rem -1rem;
-  max-width: 100%;
-} */
-
-/* .footers {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-} */
-
 .footerz {
-  /* background: #f8f6eb; */
   color: white;
   height: 8rem;
-  /* width: 100%; */
   display: flex;
-  /* margin: 4em 0 0 0; */
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -133,6 +90,39 @@ body::-webkit-scrollbar-thumb {
 }
 
 .introduction-blurb {
-  margin-bottom: rem;
+  margin-bottom: 1rem;
   margin-top: 1rem;
+}
+
+.project-link:hover {
+  color: #c7c7c7;
+}
+
+.project-link {
+  color: #7b85be;
+  text-decoration: underline;
+}
+
+.navbar-link {
+  color: #c7c7c7;
+  font-size: 1.5rem;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.navbar-link:hover {
+  color: #7b85be;
+}
+
+.lectures-link {
+  color: #c7c7c7;
+}
+
+.lectures-link:hover {
+  color: #7b85be;
+}
+
+.introduction {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }

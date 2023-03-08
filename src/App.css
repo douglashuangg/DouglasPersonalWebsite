@@ -8,7 +8,7 @@ body {
 }
 
 .title-headers {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -20,14 +20,6 @@ body {
   min-height: 10rem;
 }
 
-/* .projects {
-  background-color: #f8f6eb;
-  color: black;
-  padding: 3rem;
-  margin: 1rem;
-  border-radius: 0.75rem;
-} */
-
 .link-buttons {
   color: #c7c7c7;
 }
@@ -38,4 +30,15 @@ body {
   margin: -35rem -18rem;
   z-index: -1;
   pointer-events: none;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.header-spacing {
+  margin: 1rem;
 }

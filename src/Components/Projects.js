@@ -1,7 +1,6 @@
 import "../App.css";
+import "../index.css";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import personalWebsiteArduino from "../assets/personalWebsiteArduino.png";
 
 function Projects() {
@@ -10,66 +9,49 @@ function Projects() {
       <div class="work">
         <h2 className="title-headers">Work Experiences</h2>
         <ul>
-          <h2 class="projectTitle">Software Developer @ Brock Solutions</h2>
-          <p>Sep 2022 - Present</p>
-          <h2 class="projectTitle">
+          <h2>Software Developer @ Brock Solutions</h2>
+          <h2>
             Junior Application Developer @ UWaterloo Centre for Extended
             Learning
           </h2>
-          <li>Jan 2022 - Apr 2022</li>
         </ul>
       </div>
       <h2 className="title-headers">Projects</h2>
       <ul>
-        <div className="project-box">
+        <li style={{ listStyle: "circle" }}>
           <a
-            href="https://github.com/douglashuangg/HackWestern9"
+            href="https://github.com/douglashuangg/Comicfy.ai"
             target="_blank"
-            className="icons"
+            className="project-link"
           >
-            <div style={{ color: "#c7c7c7" }}>
-              <FontAwesomeIcon icon={faGithub} />{" "}
-            </div>
-          </a>
-          <h2>HackWestern | MongoDB, Node, ReactJS</h2>
-          <li>
-            A journal that allows you to view your own and others progress
-            towards a goal.
-          </li>
-        </div>
-        <div className="project-box">
+            Comicfy.ai
+          </a>{" "}
+          is a hackathon project that creates a comic based on any story using
+          an image generation AI!
+        </li>
+        <li style={{ listStyle: "circle" }}>
           <a
             href="https://github.com/douglashuangg/FBI"
             target="_blank"
-            className="icons"
+            className="project-link"
           >
-            <div style={{ color: "#c7c7c7" }}>
-              <FontAwesomeIcon icon={faGithub} />{" "}
-            </div>
-          </a>
-          <h2>FBI (Facts 'Bout Ingredients) | Python/Flask, ReactJS</h2>
-          <li>
-            A hackathon project that generates facts about ingredients in a
-            nutrition label!
-          </li>
-        </div>
-        <img src={personalWebsiteArduino} className="arduino-image" />
-        <div className="project-box">
+            FBI (Facts 'Bout Ingredients)
+          </a>{" "}
+          is a hackathon project that generates a description of all the
+          ingredients in an ingredient label!
+        </li>
+        {/* <img src={personalWebsiteArduino} className="arduino-image" /> */}
+        <li style={{ listStyle: "circle" }}>
           <a
             href="https://github.com/douglashuangg/RenewablePercentage"
             target="_blank"
-            className="icons"
+            className="project-link"
           >
-            <div style={{ color: "#c7c7c7" }}>
-              <FontAwesomeIcon icon={faGithub} />{" "}
-            </div>
-          </a>
-          <h2>Renewable Percentage | Python</h2>
-          <li>
-            A twitter bot that tweets the percentage of energy generated
-            renewably today compared to the same time last year in the USA.
-          </li>
-        </div>
+            Renewable Percentage
+          </a>{" "}
+          is a twitter bot that tweets the percentage of energy generated
+          renewably today compared to the same time last year in the USA.
+        </li>
       </ul>
     </div>
   );
