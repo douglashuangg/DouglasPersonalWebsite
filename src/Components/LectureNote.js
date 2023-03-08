@@ -18,7 +18,7 @@ function LectureNote() {
                 <h2 style={{ margin: "0" }}>2A Winter 2023</h2>
                 <li>ME230 - Materials</li>
                 <li>ME202 - Statistics</li>
-                <li>ME201 - Advanced Calc</li>
+                <li>ME201 - Advanced Calculus</li>
                 <li>ME269 - Electromechanical Devices</li>
                 <li>ME219 - Mechanics of Deformable Solids</li>
               </div>
