@@ -10,7 +10,7 @@ function LectureNote() {
           <h1>Waterloo Mechanical Engineering Lecture Notes</h1>
           <div style={{ width: "20rem" }}>
             <a
-              href="https://github.com/douglashuangg/FBI"
+              href="https://douglashuang.notion.site/Winter-2023-2A-Term-351e21a05f3748bd9a52e77d1ad4a573"
               target="_blank"
               className="lectures-link"
             >
